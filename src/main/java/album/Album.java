@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.*;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"year","title","artist","tracks"})
 @Data
 public class Album {
 

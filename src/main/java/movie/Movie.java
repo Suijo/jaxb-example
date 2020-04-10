@@ -13,6 +13,8 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(propOrder = {"title", "year", "rating", "votes", "genres"})
+
+
 @Data
 public class Movie {
 
