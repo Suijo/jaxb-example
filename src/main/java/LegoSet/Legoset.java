@@ -40,7 +40,7 @@ public class Legoset {
 
     private Weight weight;
 
-    
+
     private URL url;
 
 
